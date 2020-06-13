@@ -80,13 +80,6 @@ nav a:hover {
     
 }
 
-#datos h2{
-    letter-spacing: 0.15em;
-}
-
-#datos table{
-    font-size: x-large;
-}
 
 #col2{
  
@@ -104,10 +97,6 @@ nav a:hover {
     border-color: #7F2089;
 }
 
-#resenia h2{
-    letter-spacing: 0.20em;
-}
-
 
 #resenia p{
     text-align: justify;
@@ -119,7 +108,7 @@ nav a:hover {
 #col3{
 
   
-    float: right;
+    float: left;
     width: 30%;
     border: solid;
     border-width: 2px;
@@ -131,20 +120,7 @@ nav a:hover {
     
 }
 
-#principios h2{
-    letter-spacing: 0.15em;
-}
 
-#principios p{
-    line-height: 20pt;
-    font-size: x-large;
-   
-}
-
-#principios ul{
-    list-style: none;
-    font-size: x-large;
-}
 
 footer {
     background-color: #C7C1C1;
@@ -156,44 +132,4 @@ footer {
     text-align: center
     
     
-}
-
-td{
-    padding: 5pt;
-}
-
-.idea-1{
- 
-    width: 50%;
-    margin: 0px auto;
-    font-family:'Indie Flower', cursive;
-}
-
-.idea-1 h1{
-    text-shadow: black 0.1em 0.1em 0.2em;
-    letter-spacing: 0.20em;
-
-
-}
-
-.idea-1 p{
-    text-align: justify;
-  
-}
-
-.idea-2{
- 
-    width: 50%;
-    margin: 0px auto;
-    font-family: 'Righteous', cursive;
-}
-
-.idea-2 p{
-    text-align: justify;
-  
-}
-
-.idea-2 h1{
-    text-shadow: black 0.1em 0.1em 0.2em;
-    letter-spacing: 0.20em;
 }
