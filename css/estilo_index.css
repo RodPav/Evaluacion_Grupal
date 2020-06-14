@@ -23,11 +23,10 @@ body {
 }
 
 .logo img {
-    position: absolute;
-    margin-top: 0px;
-    margin-left: 5px;
+    position: relative;
     width: 78pt;
     height: 58pt;
+    padding-bottom: 5px;
 }
 
 .header a {
