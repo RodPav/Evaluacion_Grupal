@@ -1,54 +1,43 @@
-
 body {
     font-family: 'Bangers', cursive;
     background-image: url("fondo2.png");
-    
 
 }
 
-nav {
+.header{
     width: 100%;
     overflow: auto;
     background-color: black;
-    
+    color: hotpink;
 
 }
 
-nav ul {
-
-    padding: 0;
+.header ul {
+    padding-bottom: 35px;
     margin: 0 0 0 150px;
     list-style: none;
 }
 
-
-nav ul li {
-
-
+.header ul li {
     float: right;
-
 }
 
 .logo img {
     position: absolute;
-    margin-top: 2px;
+    margin-top: 0px;
     margin-left: 5px;
     width: 78pt;
     height: 58pt;
 }
 
-nav a {
-
+.header a {
     width: 100px;
-    height: 15pt;
     color: #ECFBFF;
     display: block;
-    padding: 30px 10px;
+    padding: 5px 5px;
     text-decoration: none;
     text-align: center;
     font-size: larger;
-
-
 }
 
 nav a:hover {
