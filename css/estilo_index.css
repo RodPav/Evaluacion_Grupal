@@ -1,54 +1,42 @@
 body {
     font-family: 'Bangers', cursive;
-    
     background-image: url("fondo2.png");
-    
 
 }
 
-nav {
+.header{
     width: 100%;
     overflow: auto;
     background-color: black;
-    
+    color: hotpink;
 
 }
 
-nav ul {
-
-    padding: 0;
+.header ul {
+    padding-bottom: 35px;
     margin: 0 0 0 150px;
     list-style: none;
 }
 
-
-nav ul li {
-
-
+.header ul li {
     float: right;
-
 }
 
 .logo img {
-    position: absolute;
-    margin-top: 2px;
-    margin-left: 5px;
+    position: relative;
     width: 78pt;
     height: 58pt;
+    padding-bottom: 5px;
 }
 
-nav a {
-
+.header a {
     width: 100px;
-    height: 15pt;
     color: #ECFBFF;
     display: block;
-    padding: 30px 10px;
+    padding: 5px 5px;
     text-decoration: none;
     text-align: center;
     font-size: larger;
-
-
 }
 
 nav a:hover {
@@ -58,68 +46,66 @@ nav a:hover {
 
 }
 
-#container{
-    width:100%;
+.contenedor{
+    width:90%;
     text-align:center;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: honeydew;
+    border: 1px solid honeydew;
    
     
 }
 
-#col1{
- 
+.col1{
 
     float: left;
     width: 30%;
     border: solid;
     border-width: 2px;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
+    border-radius: 20px 20px 20px 20px;
     border-color: #7F2089;
+    background-color: ivory;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
     
    
     
 }
 
 
-#col2{
+.col2{
  
    float: left;
     margin:0 auto;
     width: 30%;
     border: solid;
     border-width: 2px;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
+    border-radius: 20px 20px 20px 20px;
     padding-left: 20px;
     padding-right: 20px;
     border-color: #7F2089;
+    background-color: ivory;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
     
 }
 
-
-#resenia p{
-    text-align: justify;
-    line-height: 20pt;
-    font-size: x-large;
-    
-}
-
-#col3{
+.col3{
 
   
     float: left;
     width: 30%;
     border: solid;
     border-width: 2px;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
+    border-radius: 20px 20px 20px 20px;
     border-color: #7F2089;
+    background-color: ivory;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
     
 }
 
