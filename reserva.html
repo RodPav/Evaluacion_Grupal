@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Llamamos a JQuery / JQuery UI para desplegar un calendario --> 
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css\jquery-ui-1.12.1\jquery-ui.css">
+    <link rel="stylesheet" href="css/estilo_formulario.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            color: midnightblue;
+            text-transform: capitalize;
+        }
+    </style>
+
+    <script>
+        $(function () {
+            $("#datepicker").datepicker();
+        });
+    </script>
+</head>
+
+<body>
+    <h3><strong>Formulario de contacto</strong></h3>
+    <form action="Formulario" method="get">
+
+
+        <p>Fecha: <input type="text" id="datepicker"></p>
+
+        <td>
+            <p>
+                <select name="hora" id="hora">
+                    <option> 10:00 </option>
+                    <option> 11:00</option>
+                    <option> 12:00</option>
+                    <option> 15:00</option>
+                    <option> 16:00</option>
+                    <option> 17:00</option>
+                    <option> 18:00</option>
+
+                </select>
+            </p>
+        </td>
+
+        <table>
+            <colgroup span="1" width="150"></colgroup>
+            <tr>
+                <td>
+                    <p>Nombre:</p>
+                </td>
+                <td>
+                    <p><input type="text" name="name_control" autofocus required /></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Telefono:</p>
+                </td>
+                <td>
+                    <p><input type="text" name="name_control" autofocus required /></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Correo:</p>
+                </td>
+                <td>
+                    <p><input type="text" name="name_control" autofocus required /></p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p>Su mascota es:</p>
+                </td>
+                <td>
+                    <p>
+                        <select name="animales" id="animales">
+                            <option> Perro </option>
+                            <option> Gato</option>
+                            <option> Exotico - Huron</option>
+                            <option> Exotico - Erizo</option>
+                            <option> Exotico - Aves</option>
+                            <option> Exotico - Conejos y roedores</option>
+                            <option> Exotico - Reptiles</option>
+
+                        </select>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Genero:</p>
+                </td>
+                <td>
+                    <p>
+                        <input type="radio" id="Masculino" name="Genero" value="Masculino">
+                        <label for="Masculino">Macho</label><br>
+                        <input type="radio" id="Femenino" name="Genero" value="Femenino">
+                        <label for="Femenino">Hembra</label><br>
+
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>Motivo:</td>
+                <td>
+                    <p>
+                        <select name="locomocion" id="locomocion">
+                            <option> Consulta veterinaria </option>
+                            <option> Esterilizacion </option>
+                            <option> Cirujia </option>
+                            <option> Otros </option>
+                        </select>
+                    </p>
+                </td>
+            </tr>
+        </table>
+
+
+
+        <tr>
+            <td>
+                <p>Comentarios:</p>
+                <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+            </td>
+
+        </tr>
+
+        <p>
+            <input type="submit" value="Enviar" />
+        </p>
+
+    </form> 
+    <img src="img/vet2.png" class="responsive">
+
+</body>
+
+</html>
