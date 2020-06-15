@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pagina web</title>
+    <link rel="stylesheet" href="css/estilo_index.css">
+    <link rel="shortcut icon" href="logo.ico" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&family=Concert+One&family=Indie+Flower&family=Righteous&display=swap"
+        rel="stylesheet">
+
+
 </head>
+
 <body>
+
+    <script>
+        window.onload = function () {
+            document.getElementById("login").style.background = 'orange';
+        }
+
+    </script>
+    <div class="icono_home"><a href="index.html" id="home"><img src="img/icono_home.png" alt="Logo Pagina"></a></div>
+    <nav class="header">
+        <ul>
+            <li><a href="login.html" id="login"><img src="img/icono_user.png"></a></li>
+            <li><a href="reserva.html" id="reserva">Reserva tu hora</a></li>
+            <li> <a href="acerca.html" id="acerca">Quienes Somos</a></li>
+        </ul>
+
+    </nav>
     
+
+    <footer>
+        <h4>&copy; 2020 Pagina S.A.</h4>
+    </footer>
+
 </body>
+
 </html>
