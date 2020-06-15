@@ -1,11 +1,12 @@
-/* Estilos menu
- 1 - Body & footer
- 2 - headers, contenedores y propios
- 3 - Responsive & media
-
+/* Gato Style:
+1.- Body & footer
+2.- h3, h4, h5
+3.- propios
+4.- @media
 
 */
 
+/* 1 */
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
@@ -21,15 +22,50 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center
-    
-    
 }
 
+ /* 2 */ 
+h3 {
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(29, 12, 102);
+}
+
+h4 {
+    text-align: center;
+    text-transform: none;
+    color: rgb(34, 23, 82);
+}
+
+h5 {
+    text-align: left;
+    text-transform: none;
+    color: rgb(19, 14, 39);
+    font-family: 'Franklin Gothic Medium';
+}
+
+table{
+    margin-left:auto;
+    margin-right: auto;
+}
+
+
  /* 3 */ 
- .blacktopline{
+.blacktopline{
     height: 20px;
     background-color: lightslategray;
 }
+
+.gato{
+    max-width: 800px;
+    font-size: 18;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+} 
 
 .header{
    
@@ -150,35 +186,10 @@ nav a:hover {
     margin-right: 5px;
     padding: 2px;
     
-} 
+}
 
-.button {
-    background-color: #DCD9D4; 
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%); 
-    background-blend-mode: soft-light,screen;
-    border: none;
-    color: white;
-    padding: 2px 4px;
-    text-align: center;
-    text-decoration: cadetblue;
-    display: inline-block;
-    font-size: 16px;
-    margin: 2px 2px;
-    cursor: pointer;
-    border-radius: 10px 10px 10px 10px;
-  }
+ /* 4 */ 
 
-
-
-
-/* RESPONSIVE & MEDIA */
-.responsive {
-    max-width: 100%;
-    height: auto;
-    position: center;
-} 
-
-@media only screen and (orientation: landscape) {body {background-color: white;} } 
 /* Para teléfonos móviles: */
 [class*="col-"] {
     width: 100%;
