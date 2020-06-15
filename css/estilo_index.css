@@ -6,9 +6,8 @@ body {
 
 .header{
    
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
+    
+    width: 100%;
     overflow: auto;
     background-color: black;
     color: hotpink;
@@ -17,7 +16,7 @@ body {
 .icono_home img{
     position: absolute;
     margin-top: 6pt;
-    margin-left: 80pt;
+    margin-left: 25pt;
     width: 25pt;
     height: 25pt;
     
