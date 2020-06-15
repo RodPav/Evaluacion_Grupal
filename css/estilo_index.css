@@ -1,6 +1,6 @@
 /* Estilos menu
  1 - Body & footer
- 2 - headers, contenerodres y footers
+ 2 - headers, contenedores y propios
  3 - Responsive & media
 
 
@@ -23,6 +23,12 @@ footer {
     text-align: center
     
     
+}
+
+ /* 3 */ 
+ .blacktopline{
+    height: 20px;
+    background-color: lightslategray;
 }
 
 .header{
@@ -144,7 +150,23 @@ nav a:hover {
     margin-right: 5px;
     padding: 2px;
     
-}
+} 
+
+.button {
+    background-color: #DCD9D4; 
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%); 
+    background-blend-mode: soft-light,screen;
+    border: none;
+    color: white;
+    padding: 2px 4px;
+    text-align: center;
+    text-decoration: cadetblue;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
+  }
 
 
 
