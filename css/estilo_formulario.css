@@ -1,0 +1,144 @@
+body {
+    font-family: 'Bangers', cursive;
+    
+    background-image: url("fondo2.png");
+    
+
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    width: 100%;
+    overflow: auto;
+    background-color: black;
+    
+
+}
+
+nav ul {
+
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+}
+
+
+nav ul li {
+
+
+    float: right;
+
+}
+
+.logo img {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 5px;
+    width: 78pt;
+    height: 58pt;
+}
+
+nav a {
+
+    width: 100px;
+    height: 15pt;
+    color: #ECFBFF;
+    display: block;
+    padding: 30px 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: larger;
+
+
+}
+
+nav a:hover {
+    background-color: #FF5026;
+    transition: 0.5s;
+    text-transform: uppercase;
+
+}
+
+#container{
+    width:100%;
+    text-align:center;
+   
+    
+}
+
+#col1{
+ 
+
+    float: left;
+    width: 30%;
+    border: solid;
+    border-width: 2px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-color: #7F2089;
+    
+   
+    
+}
+
+
+#col2{
+ 
+   float: left;
+    margin:0 auto;
+    width: 30%;
+    border: solid;
+    border-width: 2px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: #7F2089;
+    
+}
+
+
+#resenia p{
+    text-align: justify;
+    line-height: 20pt;
+    font-size: x-large;
+    
+}
+
+#col3{
+
+  
+    float: left;
+    width: 30%;
+    border: solid;
+    border-width: 2px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-color: #7F2089;
+    
+}
+
+
+
+footer {
+    background-color: #C7C1C1;
+    position: fixed;
+    overflow:auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center
+    
+    
+}
+
