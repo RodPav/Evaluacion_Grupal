@@ -1,0 +1,62 @@
+body {
+    background-image: url("https://static.websguru.com.ar/var/m_4/4a/4a5/75838/1111141-fondo.png");
+
+    
+}
+
+.quienes-somos{
+    text-align: center;
+}
+
+.rol{
+    text-align: justify;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(12, 0, 122);
+    font-size: 2rem;
+    line-height: 1.6em;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.nos{
+    text-align: justify;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(12, 0, 122);
+    font-size: 2rem;
+    line-height: 1.6em;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+.nosotros{
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#992D16;
+    font-size: 5rem;
+    line-height: 2.6em;
+    
+    
+}
+
+
+
+.cargo{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #992D16;
+    font-size: 2rem;
+    line-height: 1rem;
+}
+    
+
+.nombre{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    line-height: 1rem;
+}
