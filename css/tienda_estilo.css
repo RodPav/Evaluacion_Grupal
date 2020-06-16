@@ -1,0 +1,27 @@
+body {
+    background-image: url("https://media.istockphoto.com/vectors/dog-bone-paw-seamless-pattern-vector-pet-footprint-french-bulldog-vector-id1138135871");
+   
+}
+
+
+.desc{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: orangered;
+    font-size: 1rem;
+    line-height: 1.6em;
+}
+.fila{
+    border-color: black;
+}
+
+.productos{
+    background-color: rgb(255, 255, 255);
+    border-color: blue;
+    width: 80%;
+   
+
+}
+
+
+
+
