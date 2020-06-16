@@ -15,7 +15,7 @@ body {
 
 footer {
     background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
-    position: fixed;
+   position: fixed;
     overflow:auto;
     left: 0;
     bottom: 0;
@@ -216,3 +216,56 @@ nav a:hover {
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 } 
+
+/* CSS del carrusel de imagenes */
+
+#carrusel {
+    float:left;
+    width:100%;
+    overflow:hidden;
+    height:320px;
+    position:relative;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+ 
+#carrusel .left-arrow {
+    position:absolute;
+    left:10px;
+    z-index:1;
+    top:50%;
+    margin-top:-9px;
+ 
+}
+ 
+#carrusel .right-arrow {
+    position:absolute;
+    right:10px;
+    z-index:1;
+    top:50%;
+    margin-top:-9px;
+
+}
+ 
+.carrusel {
+    width:4000px;
+    left:0px;
+    position:absolute;
+    z-index:0;
+}
+ 
+.carrusel div {
+    float: left;
+    height: 280px;
+    margin-right: 5px;
+    width: 430px;
+    text-align:center;
+}
+ 
+.carrusel img {
+    cursor:pointer;
+}
+ 
+.imagen {
+    border:#CCCCCC 1px solid;
+}
